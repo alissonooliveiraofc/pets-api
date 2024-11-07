@@ -3,6 +3,9 @@
 ## Antes de Começar 🥇
 > Use `npm install` para instalar o projeto e depois `npx vite --open` para abrir localmente ou apenas use o link da aplicação online.
 
+## Link do Projeto 🚀
+https://pets-api.surge.sh/
+
 ## Descrição do projeto 😻
 Este projeto é uma aplicação web divertida que permite aos usuários visualizar imagens aleatórias de cães e gatos com apenas um clique! Utilizando `APIs públicas`, a aplicação busca imagens de cães e gatos e as exibe na tela. Além disso, há um botão mágico que escolhe aleatoriamente entre um cão ou um gato para surpreender o usuário. <br> A interface é estilizada com `Bootstrap` e `SweetAlert2` é utilizado para exibir mensagens de erro de forma elegante.
 
