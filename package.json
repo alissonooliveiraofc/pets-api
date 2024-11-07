@@ -1,0 +1,22 @@
+{
+  "name": "select-pet",
+  "version": "1.0.0",
+  "description": "Vamos criar uma aplicação que exibe fotos aleatórias de cães e gatos.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npx vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "sweetalert2": "^11.14.5"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.80.6"
+  }
+}
