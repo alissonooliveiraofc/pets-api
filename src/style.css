@@ -82,7 +82,7 @@ button {
   width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 366px) {
 
 
   header {
@@ -98,8 +98,13 @@ button {
   }
   
     button {
-      width: 70%;
+      width: 50%;
     }
+
+  main {
+    width: 100%;
+    min-width: none;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -120,16 +125,22 @@ div button{
     width: 70%;
   }
 
+  main {
+    width: 100%;
+    min-width: none;
+  }
 }
 
 
 @media screen and (max-width: 1280px) {
   main {
     width: 100%;
+    min-width: none;  
   }
 
   button {
     width:70%;
   }
+
 
 }
