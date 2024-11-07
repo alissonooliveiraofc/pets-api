@@ -12,6 +12,7 @@ body {
   display: flex;
   height: 100vh;
   flex-direction: column;
+  width: 100%;
   
 }
 
@@ -23,7 +24,7 @@ header {
   padding: 30px;
   align-self: flex-start;
   width: 100%;
-  min-width: 450px;
+  /* min-width: 450px; */
   justify-content: space-evenly;
   /* background: linear-gradient(to right, rgba(58, 158, 150, 0.404), rgba(76, 192, 207, 0.192)); */
   background: linear-gradient(to bottom right, #db9534, #a79e9b);
@@ -63,6 +64,7 @@ div button {
   padding: 10px;
   align-items: center;
   justify-content: center;
+  width: auto;
 }
 
 span {
@@ -81,20 +83,53 @@ button {
 }
 
 @media screen and (max-width: 320px) {
-  main {
-    min-height: 100%;
+
+
+  header {
+    width: 100%;
   }
+  
+  div {
+    display: flex;
+  }
+  
+  div button{
+    width: 72px;
+  }
+  
+    button {
+      width: 70%;
+    }
 }
 
 @media screen and (max-width: 390px) {
-  main {
-    min-height: 100%;
+
+header {
+  width: 100%;
+}
+
+div {
+  display: flex;
+}
+
+div button{
+  width: 72px;
+}
+
+  button {
+    width: 70%;
   }
 
 }
+
 
 @media screen and (max-width: 1280px) {
   main {
     width: 100%;
   }
+
+  button {
+    width:70%;
+  }
+
 }
