@@ -12,7 +12,7 @@ Este projeto é uma aplicação web divertida que permite aos usuários visualiz
 **Botão Mágico:** Escolhe aleatoriamente entre uma imagem de cão ou gato e exibe na tela. <br>
 **Mensagens de Erro:** Utiliza SweetAlert2 para exibir mensagens de erro quando a API falha. <br>
 
-# Hard-skills utilizadas:
+# Hard-skills utilizadas: 👨‍🔧
 **HTML5:** Estrutura da página. <br>
 **CSS3:** Estilização da página. <br>
 **JavaScript:** Lógica da aplicação. <br>
