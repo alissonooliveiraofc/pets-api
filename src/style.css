@@ -13,7 +13,8 @@ body {
   height: 100vh;
   flex-direction: column;
   width: 100%;
-  
+  align-items: center;
+  overflow-x: hidden; /* Adicionado para evitar rolagem horizontal */
 }
 
 header {
@@ -35,15 +36,15 @@ main {
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: 100vh;
+  height: 100%;
   /* border: 1px solid red; */
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(0, 2, 3, 0.253);
   border-radius: 15px;
-  min-width: 450px;
+  width: 100%; /* Ajustado para garantir que main tenha a mesma largura que header */
   padding: 50px;
   background-color: rgba(86, 211, 228, 0.062);
   background: linear-gradient(to bottom right, #db9534, #a79e9b);
-  max-height: 100vh;
+  /* max-height: 100vh; */
 }
 
 img {
@@ -102,8 +103,9 @@ button {
     }
 
   main {
-    width: 100%;
+    /* width: 100%; */
     min-width: none;
+    overflow-x: hidden;
   }
 }
 
@@ -126,16 +128,27 @@ div button{
   }
 
   main {
-    width: 100%;
+    /* width: 100%; */
     min-width: none;
+    /* overflow-x: hidden; */
+
   }
 }
 
 
-@media screen and (max-width: 1280px) {
-  main {
-    width: 100%;
-    min-width: none;  
+@media screen and (max-width: 600px) {
+  header, main {
+    padding: 20px; /* Ajuste de padding para telas menores */
+  }
+
+  div button {
+    width: 80px; /* Ajuste de largura dos botões para telas menores */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+ #img-container {
+    width: 50%;
   }
 
   button {
